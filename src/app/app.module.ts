@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { NgxEchartsModule } from 'ngx-echarts';
 import { BackComponent } from './back';
 import { HelloWordComponent } from './hello-word';
+import { PieLegendComponent } from './pie-legend';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { HelloWordComponent } from './hello-word';
     HomeComponent,
     BackComponent,
     HelloWordComponent,
+    PieLegendComponent,
   ],
   imports: [
     BrowserModule,
