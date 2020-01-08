@@ -5,14 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
+import { NgxEchartsModule } from 'ngx-echarts';
+import { BackComponent } from './back';
+import { HelloWordComponent } from './hello-word';
+
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    BackComponent,
+    HelloWordComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxEchartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
